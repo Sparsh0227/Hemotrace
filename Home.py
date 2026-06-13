@@ -313,7 +313,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image, UnidentifiedImageError
-import tflite_runtime.interpreter as tflite
+import tensorflow as tf
 
 # =====================================================
 # PAGE CONFIG
@@ -331,7 +331,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_interpreter():
-    interpreter = tflite.Interpreter(
+    interpreter = tf.lite.Interpreter(
         model_path="best_hemotrace.tflite"
     )
     interpreter.allocate_tensors()
