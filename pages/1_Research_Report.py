@@ -77,7 +77,7 @@ st.table(experiment_data)
 st.header("📈 Training & Validation Accuracy")
 
 st.image(
-    "accuracy_curve.png",
+    "screenshots/accuracy_curve.png",
     caption="Training vs Validation Accuracy"
 )
 
@@ -88,7 +88,7 @@ st.image(
 st.header("🎯 Confusion Matrix")
 
 st.image(
-    "confusion_matrix.png",
+    "screenshots/confusion_matrix.png",
     caption="Model Confusion Matrix"
 )
 
