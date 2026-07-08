@@ -195,7 +195,9 @@ Replace with your screenshot.
 - Streamlit
 - NumPy
 - Pillow
+- Scikit-Learn
 - Matplotlib
+- Seaborn
 
 ---
 
